@@ -64,10 +64,11 @@ public class Question20 {
                 System.out.println("----------");
                 System.out.println("계좌생성");
                 System.out.println("----------");
+                scanner.nextLine(); //입력버퍼 비우기
                 System.out.print("계좌번호: ");
-                String account = scanner.next();
+                String account = scanner.nextLine();
                 System.out.print("계좌주: ");
-                String name = scanner.next();
+                String name = scanner.nextLine();
                 System.out.print("초기입금액: ");
                 Integer deposit = scanner.nextInt();
                 //계좌생성
@@ -96,8 +97,9 @@ public class Question20 {
                 System.out.println("----------");
                 System.out.println("예금");
                 System.out.println("----------");
+                scanner.nextLine(); //입력버퍼 비우기
                 System.out.print("계좌번호: ");
-                String account = scanner.next();
+                String account = scanner.nextLine();
                 System.out.print("예금액: ");
                 int money = scanner.nextInt();
 
@@ -114,8 +116,9 @@ public class Question20 {
                 System.out.println("----------");
                 System.out.println("출금");
                 System.out.println("----------");
+                scanner.nextLine(); //입력버퍼 비우기
                 System.out.print("계좌번호: ");
-                String account = scanner.next();
+                String account = scanner.nextLine();
                 System.out.print("출금액: ");
                 int money = scanner.nextInt();
 
