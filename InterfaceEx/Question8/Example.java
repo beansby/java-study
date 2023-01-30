@@ -7,10 +7,10 @@ public class Example {
     public static void action(A a){
         a.method1();
         //연산자 미지원 버전 java
-//        if(a instanceof C c){
-//            C c = (C) a;
-//            c.method2();
-//        }
+        if(a instanceof C){
+            C c = (C) a;
+            c.method2();
+        }
     }
 
     public static void main(String[] args) {
