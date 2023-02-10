@@ -7,10 +7,11 @@ public class MemberClassEx {
         OuterClass outerClass = new OuterClass();
         // 2-인스턴스 멤버 클래스 객체 생성
         OuterClass.InstanceMemberClass instanceMemberClass = outerClass.new InstanceMemberClass();
+//        OuterClass.InstanceMemberClass imc = new OuterClass.InstanceMemberClass();
 
-        outerClass.method();
+//        outerClass.method();
 
         //정적 멤버 클래스 객체 생성 : OuterClass 외부
-        OuterClass.StaticMemberClass staticMemberClass = new OuterClass.StaticMemberClass();
+//        OuterClass.StaticMemberClass staticMemberClass = new OuterClass.StaticMemberClass();
     }
 }

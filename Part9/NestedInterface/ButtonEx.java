@@ -42,6 +42,5 @@ public class ButtonEx {
 
         btnLogin.setClickListener(new LoginListener());
         btnLogin.click();
-
     }
 }

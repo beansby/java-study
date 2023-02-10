@@ -24,9 +24,9 @@ public class OuterClass {
     InstanceMemberClass instanceField = new InstanceMemberClass();
 
     // 2) 생성자
-//    public OuterClass() {
-//        InstanceMemberClass constructor = new InstanceMemberClass();
-//    }
+    public OuterClass() {
+        InstanceMemberClass constructor = new InstanceMemberClass();
+    }
 
     // 3) 인스턴스 메소드
     void method(){
@@ -54,9 +54,9 @@ public class OuterClass {
     // 2) 정적 필드 값
     static StaticMemberClass field_static = new StaticMemberClass();
     // 3) 생성자
-    OuterClass(){
-        StaticMemberClass constructor = new StaticMemberClass();
-    }
+//    OuterClass(){
+//        StaticMemberClass constructor = new StaticMemberClass();
+//    }
     // 4) 인스턴스 메소드
     void method_instance(){
         StaticMemberClass instanceMethod = new StaticMemberClass();
