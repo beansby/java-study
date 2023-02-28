@@ -15,7 +15,7 @@ public class Calculator {
         this.memory = memory;
         try {
             Thread.sleep(2000);
-            System.out.println(Thread.currentThread().getName()+" : "+this.memory);
+//            System.out.println(Thread.currentThread().getName()+" : "+this.memory);
         } catch (InterruptedException e) {
             System.out.println(Thread.currentThread().getName()+" : "+this.memory);
         }
@@ -30,7 +30,7 @@ public class Calculator {
             this.memory = memory;
             try {
                 Thread.sleep(2000);
-                System.out.println(Thread.currentThread().getName()+" : "+this.memory);
+//                System.out.println(Thread.currentThread().getName()+" : "+this.memory);
             } catch (InterruptedException e) {
                 System.out.println(Thread.currentThread().getName()+" : "+this.memory);
             }
